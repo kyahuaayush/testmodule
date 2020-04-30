@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test M1.0SC</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<style>
+    body{
+    background-color:#D3D3D3;
+}
+/*question Area*/
+.question{    
+   margin:20px 125px 10px 125px;
+}
+
+/*Table*/
+.table{
+    padding:0px;
+}
+.tbody{
+    background-color:#fff;
+}
+/*MEDIA*/
+@media(max-width:700px){
+    body{
+        font-size:12px;
+    }
+    .question{
+        margin:20px 10% 40px 10%;
+        
+    }
+}
+/*Button*/
+.btn_prev {
+    background-color:#009FFF;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius:30px;
+    width:100px;
+}
+.btn_prev:hover{
+    background: #ec2F4B; 
+}
+.btn_next {
+    background-color:#ec2F4B;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius:30px;
+    width:100px;
+}
+.btn_next:hover{
+    background:  #11998e; 
+}
+/* Image Div */
+.image_div{
+    text-align: center;
+    margin: 30px auto 0px auto;
+}
+/* Image properties here */
+.image_branding{
+    width: 150px;
+}
+</style>
+<body>
+    <div class="image_div">
+        <img class="image_branding" src="https://i.ibb.co/Q8jT8PM/SWASTIK-CLASSES-LO.png" alt="SWASTIK-CLASSES-LO" border="0">
+    </div>
+    <div class="question">
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col" style="vertical-align:middle">Question </th>
+                    <th scope="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique senectus et netus et malesuada. Vel elit scelerisque mauris pellentesque.</th>
+                </tr>
+            </thead>
+            <tbody class="tbody">
+                <tr>
+                    <th scope="col"><input type="radio" aria-label="Radio button for following text input" name="4">1. </th>
+                    <th scope="col"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,</th>
+                </tr>
+                <tr>
+                    <th scope="col"><input type="radio" aria-label="Radio button for following text input" name="4">2. </th>
+                    <th scope="col"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,</th>
+                </tr>
+                <tr>
+                    <th scope="col"><input type="radio" aria-label="Radio button for following text input" name="4">3. </th>
+                    <th scope="col"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,</th>
+                </tr>
+                <tr>
+                    <th scope="col"><input type="radio" aria-label="Radio button for following text input" name="4">4. </th>
+                    <th scope="col"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,</th>
+                </tr>
+               
+            </tbody>
+        </table>
+    
+    <div class="col">
+<button class="btn btn-dark-moon btn-fab btn_prev">Prev</button>
+
+<button class="btn btn-dark-moon btn-fab btn_next">Next</button>
+</div>
+
+</div>
+    
+</body>
+</html>
